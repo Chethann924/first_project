@@ -1,0 +1,72 @@
+#%RAML 1.0
+title: Network_Rail
+
+types:
+  WorkorderService: !include datatypes/workorderService.raml
+  EquipmentService: !include datatypes/equipmentService.raml
+
+/workorderService:
+  description: 
+  get:
+    responses:
+      200:
+        body:
+          application/xml:
+            type: WorkorderService
+  post:
+    description: 
+    body:
+      application/xml:
+        example: !include examples/workorderRequest.xml
+    responses:
+      201:
+        body:
+          application/json:
+            example: !include examples/response.json
+
+/equipmentService:
+  description: 
+  get:
+    responses:
+      200:
+        body:
+          application/xml:
+            type: EquipmentService
+            example: !include examples/getEquipmentResponse.xml
+  post:
+    description: 
+    body:
+      application/xml:
+        example: !include examples/equipmentRequest.xml
+    responses:
+      201:
+        body:
+          application/json:
+            example: !include examples/response.json
+              
+          
+              
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+              
+          

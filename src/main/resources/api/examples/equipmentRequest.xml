@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<CreateEquipmentRequest>
+  <ControlArea>
+    <processingScope>request</processingScope>
+  </ControlArea>
+  <DataArea>
+    <ServiceEquipmentDataIN>
+      <customerName>chethan</customerName>
+      <districtCode>DET12</districtCode>
+      <equipmentClass>firstClass</equipmentClass>
+      </ServiceEquipmentDataIN>
+  </DataArea>
+</CreateEquipmentRequest>

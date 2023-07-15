@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<CreateWorkOrderRequest>
+  <ControlArea>
+    <processingScope>request</processingScope>
+  </ControlArea>
+  <DataArea>
+    <ServiceWorkOrderDataIN>
+      <districtCode>chethan</districtCode>
+      <workOrderId>DET12</workOrderId>
+      <workOrderDesc>firstClass</workOrderDesc>
+      </ServiceWorkOrderDataIN>
+  </DataArea>
+</CreateWorkOrderRequest>
